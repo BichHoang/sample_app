@@ -14,6 +14,7 @@ gem "coffee-rails", "~> 4.2"
 gem "jbuilder", "~> 2.5"
 gem "turbolinks", "~> 5"
 
+gem "bcrypt"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "bootstrap-sass"
 
