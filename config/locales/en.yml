@@ -44,6 +44,12 @@ en:
     Michael: "Michael Hartl"
     signupnow: "Sign up now!"
     welcome: "Welcome to the Sample App"
+    login: "Log in"
+    logout: "Log out"
+    user: "User"
+    account: "Account"
+    profile: "Profile"
+    settings: "Settings"
   title:
     signup: "Sign Up"
   static_pages:
@@ -63,6 +69,7 @@ en:
     new1: "This will be a signup page for new users."
     newuser: "This will be a signup page for new users."
     msg: "The form contains"
+    newuser1: "New user?"
   form:
     name: "Name"
     email: "Email"
@@ -71,3 +78,4 @@ en:
     create: "Create my account"
   errors:
     nil_user: "User not found"
+    msg1: "Invalid email/password combination"
