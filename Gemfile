@@ -8,12 +8,16 @@ gem "sass-rails", "~> 5.0"
 gem "sqlite3"
 gem "uglifier", ">= 1.3.0"
 
+gem "config", "~> 1.4"
+
 gem "coffee-rails", "~> 4.2"
 gem "jbuilder", "~> 2.5"
 gem "turbolinks", "~> 5"
 
 gem "bootsnap", ">= 1.1.0", require: false
+gem "bootstrap-sass"
 
+gem "rails-controller-testing"
 gem "rubocop", "~> 0.54.0", require: false
 
 group :development, :test do

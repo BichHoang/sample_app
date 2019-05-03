@@ -31,13 +31,22 @@
 
 en:
   base_title: "Ruby on Rails Tutorials Simple App"
-  layouts:
-    application:
-      title: "| Rails Tutorials"
-  static_pages:
+  label:
+    logo: "Sample App"
     homepage: "Home page"
     helppage: "Help page"
     aboutpage: "About page"
+    contactpage: "Contact page"
+    title: "Ruby on Rails Tutorials"
+    the: "The"
+    by: "by"
+    news: "News"
+    Michael: "Michael Hartl"
+    signupnow: "Sign up now!"
+    welcome: "Welcome to the Sample App"
+  title:
+    signup: "Sign Up"
+  static_pages:
     about:
       h1tag: "About Page"
     help:
@@ -48,3 +57,7 @@ en:
     contact:
       h1tag: "Contact page"
       content: "This's content of Contact page"
+  text:
+    home1: "This is the home page for the"
+    home2: "sample application."
+    new1: "This will be a signup page for new users."
