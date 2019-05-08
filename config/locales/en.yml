@@ -70,12 +70,14 @@ en:
     newuser: "This will be a signup page for new users."
     msg: "The form contains"
     newuser1: "New user?"
+    remember: "Remember me on this computer"
   form:
     name: "Name"
     email: "Email"
     pass: "Password"
     confirm: "Confirmation"
     create: "Create my account"
+    remember: "Remember me"
   errors:
     nil_user: "User not found"
     msg1: "Invalid email/password combination"
