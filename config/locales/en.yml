@@ -50,8 +50,17 @@ en:
     account: "Account"
     profile: "Profile"
     settings: "Settings"
+    update_profile: "Update your profile"
+    change: "Change"
+    update_profile: "Profile updated"
+    pls_login: "Please log in."
+    stoke: "| "
+    del: "Delete"
+    sure: "You sure?"
+    del_user: "User deleted"
   title:
     signup: "Sign Up"
+    all_users: "All Users"
   static_pages:
     about:
       h1tag: "About Page"
@@ -78,6 +87,8 @@ en:
     confirm: "Confirmation"
     create: "Create my account"
     remember: "Remember me"
+    edit: "Edit user"
+    save_change: "Save changes"
   errors:
     nil_user: "User not found"
     msg1: "Invalid email/password combination"
