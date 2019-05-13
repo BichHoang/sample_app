@@ -58,6 +58,7 @@ en:
     del: "Delete"
     sure: "You sure?"
     del_user: "User deleted"
+    activate: "Activate"
   title:
     signup: "Sign Up"
     all_users: "All Users"
@@ -80,6 +81,10 @@ en:
     msg: "The form contains"
     newuser1: "New user?"
     remember: "Remember me on this computer"
+    click_mail: "Welcome to the Sample App! Click on the link below to activate your account:"
+    find_mail: ", find me in app/views/user_mailer/account_activation.html.erb"
+    pls_check_mail: "Please check your email to activate your account."
+    find_pass_rs: ", find me in app/views/user_mailer/password_reset.html.erb"
   form:
     name: "Name"
     email: "Email"
@@ -92,3 +97,16 @@ en:
   errors:
     nil_user: "User not found"
     msg1: "Invalid email/password combination"
+  mail:
+    subject: "Account activation"
+    greeting: "Hi "
+    title_pass_rs: "User#password_reset"
+  special_characters:
+    stoke: "| "
+    comma: ", "
+  activated:
+    success: "Account activated!"
+    fail: "Invalid activation link"
+  account:
+    not_active: "Account not activated. Check your email for the activation link."
+
