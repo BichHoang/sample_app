@@ -10,5 +10,6 @@ user:
   pass_length: 6
   size_ava: 80
   size_ava_sm: 50
+  size_ava_30: 30
 micropost:
   length_max: 140

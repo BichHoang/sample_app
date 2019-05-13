@@ -65,6 +65,7 @@ en:
     update_pass: "Update pass"
     view_profile: "view my profile"
     compose: "Compose new micropost..."
+    view_pr: "view my profile"
   title:
     signup: "Sign Up"
     all_users: "All Users"
@@ -142,3 +143,6 @@ en:
     msg_size_pic: "Maximum file size is 5MB. Please choose a smaller file."
   link:
     rails: "http://rubyonrails.org/"
+  follow:
+    followers: "followers"
+    following: "following"
