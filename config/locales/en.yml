@@ -63,6 +63,8 @@ en:
     submit: "Submit"
     rs_pass: "Reset password"
     update_pass: "Update pass"
+    view_profile: "view my profile"
+    compose: "Compose new micropost..."
   title:
     signup: "Sign Up"
     all_users: "All Users"
@@ -95,6 +97,10 @@ en:
     pass_has_rs: "Password has been reset."
     no_empty: "can't be empty"
     pass_rs_expired: "Password reset has expired."
+    micropost_t1: "Posted "
+    micropost_t1: " ago."
+    size_pic: "should be less than 5MB"
+    alt_rails: "Rails"
   form:
     name: "Name"
     email: "Email"
@@ -104,6 +110,7 @@ en:
     remember: "Remember me"
     edit: "Edit user"
     save_change: "Save changes"
+    post: "Post"
   errors:
     nil_user: "User not found"
     msg1: "Invalid email/password combination"
@@ -125,4 +132,13 @@ en:
     fail: "Invalid activation link"
   account:
     not_active: "Account not activated. Check your email for the activation link."
-
+  micropost:
+    title: "Microposts "
+    create: "Micropost created!"
+    label: "micropost"
+    feed: "Micropost Feed"
+    del: "Micropost deleted"
+    nil: "Micropost nil"
+    msg_size_pic: "Maximum file size is 5MB. Please choose a smaller file."
+  link:
+    rails: "http://rubyonrails.org/"

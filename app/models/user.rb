@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save :downcase_email
   before_create :create_activation_digest
@@ -11,6 +12,7 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true,
   length: {minimum: Settings.user.pass_length}, allow_nil: true
+  scope :activated, ->{where activated: true}
 
   def self.digest string
     cost = if ActiveModel::SecurePassword.min_cost
@@ -65,6 +67,10 @@ class User < ApplicationRecord
 
   def add_error msg
     errors.add :password, msg
+  end
+
+  def feed
+    microposts.order_created
   end
 
   private
