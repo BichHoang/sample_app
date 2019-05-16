@@ -26,6 +26,9 @@ gem "rubocop", "~> 0.54.0", require: false
 
 gem "jquery-rails", "~> 4.3", ">= 4.3.1"
 
+gem "carrierwave"
+gem "mini_magick"
+
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -41,6 +44,11 @@ group :test do
   gem "capybara", ">= 2.15"
   gem "chromedriver-helper"
   gem "selenium-webdriver"
+end
+
+group :production do
+  gem "fog", "1.42"
+  gem "pg", "0.20.0"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
